@@ -1,7 +1,7 @@
 # Interview-Preparation
 Android Interview Preparation and Questions List
 
-Design Patterns - 
-1. What is dependecy injection?
-2. Write a simple example of depedency injection using Dagger-Hilt?
-3. What are diffrent annotations used in Hilt depedency injection?
+**Synchronous Pvt Ltd -** 
+1. What is dependency injection?
+2. Write a simple example of dependency injection using Dagger-Hilt?
+3. What are different annotations used in Hilt dependency injection?
