@@ -1,6 +1,14 @@
 # Interview-Preparation
 Android Interview Preparation and Questions List
 
+**TCS-**
+1. Login Form with creds, Form MVVM architecture for this form.
+2. Login Form with creds, How you can handle error messages in Jetpack compose
+3. What different design patterns you worked with?
+4. Explain how you use builder pattern for having 3 types of dialog boxes(dialog with Ok button, dialog with Ok/Cancel button, dialog with Ok/Cancel/Prepare button)
+5. What are different activity launch modes? Explain each.
+6. What is task affinity?
+7. How task affinity affects the different launch modes?
 
 **Cyient (Round2) -**
 1. How to handle pagination for large dataset in RoomDB?
