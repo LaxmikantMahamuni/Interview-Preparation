@@ -1,19 +1,30 @@
 # Interview-Preparation
 Android Interview Preparation and Questions List
 
+**Chamberlain -**
+1. Swapping array programming question? 
+2. String Manipulation 
+3. String Reverse 
+4. Extension function 
+5. Inline function 
+6. Higher order function 
+7. Coroutines 
+8. Solid principles 
+9. Inheritance with interface
+
 **TCS-**
 1. If a Login Form with creds, design MVVM architecture for this form.
 2. For a Login Form with creds, How you can handle error messages in Jetpack compose?
 3. What different design patterns you worked with?
-4. Explain how you use builder pattern for having 3 types of dialog boxes(dialog with Ok button, dialog with Ok/Cancel button, dialog with Ok/Cancel/Prepare button)
+4. Explain how to use builder pattern for having 3 types of dialog boxes(dialog with Ok button, dialog with Ok/Cancel button, dialog with Ok/Cancel/Prepare button)
 5. What are different activity launch modes? Explain each.
 6. What is task affinity?
 7. How task affinity affects the different launch modes?
 
 **Cyient (Round2) -**
-1. How to handle pagination for large dataset in RoomDB?
-2. What are the components of RoomDB?
-3. How to handle database migration in RoomDB?
+1. How to handle pagination for large dataset in RoomDatabase?
+2. What are the components of RoomDatabase?
+3. How to handle database migration in RoomDatabase?
 4. Differentiate between Serializable Vs. Parcelable 
 5. What is JVMOverload?
 6. What is JVMStatic?
