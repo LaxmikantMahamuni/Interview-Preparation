@@ -1,11 +1,71 @@
 # Interview-Preparation
 Android Interview Preparation and Questions List
 
+**Synchronous Pvt Ltd (Vishal Gongale)-**
+1. Explain Service in android. Limitations for service after android 11
+2. Explain WorkManager in details.
+3. Explain What is Dependency injection
+4. Which one you know explain in details.
+5. Write a simple example of dependency injection using Dagger-Hilt?
+6. List out annotations for Hilt or Koin
+7. What is androidEntryPoint in hilt. What it does in background
+8. Where we can add androidEntryPoint annotation in project
+9. Explain Foreground service
+10. Which network library you use & why
+11. How do you call api explain steps in details
+12. What you use for database integration
+13. How room library work. Explain all room integration in details? Is dao interface or class?
+14. What are you know in Kotlin framework. Explain some of them
+15. Explain scope function and when to use
+16. What is coroutine. Explain
+17. If I have 4 coroutine in function. How it will get execute
+18. Explain scopes in coroutine
+19. Difference between coroutine scope vs viewmodel scope
+20. Which one to use for long operation
+21. Explain all dispatchers of Coroutine
+22. How to update data in compose screen
+23. Can we call another compose function from onckick in compose
+24. How to remember last value in compose if config changes
+
+**Synchronous Pvt Ltd (Omkar Ingavale)-**
+1. Explain Dependency injection and which frameworks used so far. I mentioned Hilt..so asked related questions.
+2. How will you configure Hiult into Project, explain all annotations.
+3. What is androidEntryPoint in hilt. What it does in background
+4. What Android components used so far. Have you used Services. What is the significance of it?
+5. I want to send logs/Analytics to Server in certain interval, what we can use to achieve this and why.
+6. More on WorkManager
+7. Which n/w library you prefer to use and why. I mentioned Retofit. How we can make an API call with retrofit?
+8. Questions around Coroutine, what it is? Scopes, Dispatchers
+9. supervisorScope vs CoroutineScope
+10. when to use async-await, withContext
+11. Whar are Kotlin features you have used so far..so based on mnetioning there will be folloup questions
+12. Sealed class: what is purpose of it. Mention any scenario where you used.
+13. How to update UI from viewModel what you use to prefer?
+14. How to survive data in configuration chnage? What are the ways that we can consider
+15. What are DBs you have worked with which you have more hands on?
+16. I mentioned Room so followup questions on that..
+17. How Room works internally, How to crteate table , What is DAO
+18. How Room is better than other DBs and why to prefer use Room
+19. Have you done Unit testing? which libs user for that..mention any simple Testcase.
+
+**Costco Pvt Ltd-**
+1. Unit Testing -> Simple example
+2. Relax Mockito
+3. Jetpack Compose questions
+4. What are Jetpack Compose Best Practices
+5. Dependency Injections
+6. Coroutines
+7. Context sack
+8. Clean Architecture MVVM
+9. Exception Handling
+10. Performance Improve
+11. Serialization
+
 **Quesscorp-**
 1. Generics in Kotlin 
-2. Refied Keyword 
+2. What is Refied Keyword i Kotlin? 
 3. Co veriant 
-4. Backing properties 
+4. Backing properties?
 5. Why data class over normal class 
 6. Coroutines -> Can we use Default Dispatcher for N/W api call? 
 7. How to Call a suspending function in composable function 
@@ -55,64 +115,3 @@ suspend fun getUser
 6. What is JVMStatic?
 7. How WorkManager gives guarantee for executing tasks even after device restarts?
 8. How coroutine handles the Exceptions?
-
-**Synchronous Pvt Ltd (Vishal Gongale)-**
-1. Explain Service in android. Limitations for service after android 11
-2. Explain Wokrmanager in details. 
-3. Explain What is Dependency injection 
-4. Which on you know explain in details. 
-5. Write a simple example of dependency injection using Dagger-Hilt? 
-6. List out annotations for Hilt or Koin
-7. What is androidEntryPoint in hilt. What it does in background
-8. Where we can add androidEntryPoint annotation in project
-9. Explain Foreground service
-10. Which network library you use & why
-11. How do you call api explain steps in details
-12. What you use for database integration
-13. How room library work. Explain all room integration in details
-    14 Is dao interface or class? 
-14. What are you know in Kotlin framework. Explain some of them 
-15. Explain scope function and when to use 
-16. What is coroutine. Explain 
-17. If I have 4 coroutine in finction. How it will get execute 
-18. Explain scopes in coroutine 
-19. Difference between coroutine scope vs viewmodel scope 
-20. Which one to use for long operation 
-21. Explain all dispatchers 
-22. How to update data in compose screen 
-23. Can we call another compose function from onckick in compose 
-24. How to remember last value in compose if config changes
-
-**Synchronous Pvt Ltd (Omkar Ingavale)-**
-1. Explain Dependency injection and which frameworks used so far. I mentioned Hilt..so asked related questions.
-2. How will you configure Hiult into Project, explain all annotations.
-3. What is androidEntryPoint in hilt. What it does in background
-4. What Android components used so far. Have you used Services. What is the significance of it?
-5. I want to send logs/Analytics to Server in certain interval, what we can use to achieve this and why.
-6. More on WorkManager
-7. Which n/w library you prefer to use and why. I mentioned Retofit. How we can make an API call with retrofit?
-8. Questions around Coroutine, what it is? Scopes, Dispatchers
-9. supervisorScope vs CoroutineScope
-10. when to use async-await, withContext
-11. Whar are Kotlin features you have used so far..so based on mnetioning there will be folloup questions
-12. Sealed class: what is purpose of it. Mention any scenario where you used.
-13. How to update UI from viewModel what you use to prefer?
-14. How to survive data in configuration chnage? What are the ways that we can consider
-15. What are DBs you have worked with which you have more hands on?
-16. I mentioned Room so followup questions on that..
-17. How Room works internally, How to crteate table , What is DAO
-18. How Room is better than other DBs and why to prefer use Room
-19. Have you done Unit testing? which libs user for that..mention any simple Testcase.
-
-**Costco Pvt Ltd-**
-1. Unit Testing -> Simple example 
-2. Relax Mockito
-3. Jetpack Compose questions
-4. What are Jetpack Compose Best Practices
-5. Dependency Injections
-6. Coroutines
-7. Context sack
-8. Clean Architecture MVVM
-9. Exception Handling
-10. Performance Improve
-11. Serialization
