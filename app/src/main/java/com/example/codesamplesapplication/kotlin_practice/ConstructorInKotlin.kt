@@ -1,4 +1,4 @@
-package com.example.codesamplesapplication.small_practice
+package com.example.codesamplesapplication.kotlin_practice
 
 class ConstructorInKotlin(myInt: Int){
     init {
