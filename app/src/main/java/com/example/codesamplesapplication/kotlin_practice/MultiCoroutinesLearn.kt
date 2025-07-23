@@ -1,9 +1,15 @@
 package com.example.codesamplesapplication.small_practice
 
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlin.system.measureTimeMillis
 
 //fun main() {
 //    runBlocking {
@@ -248,5 +254,26 @@ private suspend fun sampleTwo(): Boolean {
     delay(3000L)
     return false
 }
+
+
+
+//How do you combine multiple coroutine result (Answer : Using .awaitAll() function)
+//fun main() = runBlocking {
+//    val task = listOf(
+//        async(Dispatchers.IO) { fetchDataFromSource1() },
+//        async(Dispatchers.IO) { fetchDataFromSource2() }
+//    )
+//
+//    val result = task.awaitAll()
+//    println("Responses ${result[0]}  ${result[1]}")
+//}
+//
+//suspend fun fetchDataFromSource1(){
+//    delay(1000L)
+//}
+//
+//suspend fun fetchDataFromSource2(){
+//    delay(1000L)
+//}
 
 
