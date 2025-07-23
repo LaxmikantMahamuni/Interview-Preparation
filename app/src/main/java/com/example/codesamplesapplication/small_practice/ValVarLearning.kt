@@ -1,9 +1,23 @@
 package com.example.roomdbapp.learning
 
+//fun main() {
+//    lateinit var variableName: String
+//
+////    variableName = "Laxmikant"
+//
+//    println(variableName)
+//}
+
 fun main() {
-    lateinit var variableName: String
+   val myVal : Int? // Warning: Join the declaration and assignment
 
-//    variableName = "Laxmikant"
+    for (i in 0..10){
+        if(i == 5){
+//            myVal = i //Error : Val cannot be reassigned
+        }
+    }
 
-    println(variableName)
+    myVal = 5
+
+   println(myVal)
 }
