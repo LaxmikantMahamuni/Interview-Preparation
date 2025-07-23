@@ -1,4 +1,4 @@
-package com.example.roomdbapp.learning
+package com.example.codesamplesapplication.learning
 
 fun main() {
     lateinit var variableName: String

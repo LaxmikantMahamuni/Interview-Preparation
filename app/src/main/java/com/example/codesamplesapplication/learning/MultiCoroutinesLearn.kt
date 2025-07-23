@@ -1,4 +1,4 @@
-package com.example.roomdbapp.learning
+package com.example.codesamplesapplication.learning
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -8,25 +8,25 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
-//fun main() {
-//    runBlocking {
-//        launch {
-//            delay(1000)
-//            println("Coroutine 1 finished on thread: ${Thread.currentThread().name}")
-//        }
-//
-//        launch {
-//            delay(2000)
-//            println("Coroutine 2 finished on thread: ${Thread.currentThread().name}")
-//        }
-//
-//        launch {
-//            delay(3000)
-//            println("Coroutine 3 finished on thread: ${Thread.currentThread().name}")
-//        }
-//    }
-//    println("After runBlocking coroutines launched")
-//}
+fun main() {
+    runBlocking {
+        launch {
+            delay(1000)
+            println("Coroutine 1 finished on thread: ${Thread.currentThread().name}")
+        }
+
+        launch {
+            delay(2000)
+            println("Coroutine 2 finished on thread: ${Thread.currentThread().name}")
+        }
+
+        launch {
+            delay(3000)
+            println("Coroutine 3 finished on thread: ${Thread.currentThread().name}")
+        }
+    }
+    println("After runBlocking coroutines launched")
+}
 
 //fun main() {
 //    runBlocking {
@@ -227,29 +227,29 @@ import kotlinx.coroutines.runBlocking
 //    println("End")
 //}
 
-fun main() = runBlocking {
-    println("First statement of Async")
-
-    launch {
-        val one = async { sampleOne()}
-        val two = async { sampleTwo()}
-        if(one.await() && two.await()){
-            println("Both returned true")
-        }else {
-            println("Someone returned false")
-        }
-    }
-    delay(3500)
-    println("Last statement of Async")
-}
-
-private suspend fun sampleOne(): Boolean {
-    delay(1000L)
-    return true
-}
-private suspend fun sampleTwo(): Boolean {
-    delay(3000L)
-    return false
-}
+//fun main() = runBlocking {
+//    println("First statement of Async")
+//
+//    launch {
+//        val one = async { sampleOne()}
+//        val two = async { sampleTwo()}
+//        if(one.await() && two.await()){
+//            println("Both returned true")
+//        }else {
+//            println("Someone returned false")
+//        }
+//    }
+//    delay(3500)
+//    println("Last statement of Async")
+//}
+//
+//private suspend fun sampleOne(): Boolean {
+//    delay(1000L)
+//    return true
+//}
+//private suspend fun sampleTwo(): Boolean {
+//    delay(3000L)
+//    return false
+//}
 
 

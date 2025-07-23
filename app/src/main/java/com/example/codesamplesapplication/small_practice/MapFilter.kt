@@ -1,4 +1,4 @@
-package com.example.roomdbapp.learning
+package com.example.codesamplesapplication.small_practice
 
 
 fun main() {

@@ -1,4 +1,4 @@
-package com.farhan.tanvir.androidcleanarchitecture.other_practice
+package com.example.codesamplesapplication.small_practice
 
 fun commonMinimumPrefix(strings: List<String>): String {
     var prefix = strings[0]

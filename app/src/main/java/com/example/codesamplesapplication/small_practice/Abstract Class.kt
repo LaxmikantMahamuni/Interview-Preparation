@@ -1,4 +1,4 @@
-package com.farhan.tanvir.androidcleanarchitecture.other_practice
+package com.example.codesamplesapplication.small_practice
 
 abstract class One(){
     abstract fun add(x: Int, y: Int): Int

@@ -1,4 +1,4 @@
-package com.example.roomdbapp.learning
+package com.example.codesamplesapplication.small_practice
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.delay

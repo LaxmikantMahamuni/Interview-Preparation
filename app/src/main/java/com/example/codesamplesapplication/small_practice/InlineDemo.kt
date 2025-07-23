@@ -1,4 +1,4 @@
-package com.example.roomdbapp
+package com.example.codesamplesapplication.small_practice
 
 fun loop(n: Long) {
     for (i in 0..n) {
