@@ -1,4 +1,4 @@
-package com.example.codesamplesapplication.learning
+package com.example.codesamplesapplication.kotlin_collections
 
 
 fun main() {
