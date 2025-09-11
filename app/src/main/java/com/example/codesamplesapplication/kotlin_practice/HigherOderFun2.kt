@@ -10,6 +10,12 @@ fun returnMeAddFunction(): (Int, Int) -> Int {
 
 fun main() {
     val operation = returnMeAddFunction()
-    val result = operation(10, 20)
+
+    //I have some logic that needs to be implemented on 2 numbers and then
+    // I will call the operation function
+    var x = 10 + 1
+    var y = 20 + 1
+
+    val result = operation(x, y)
     println(result)
 }

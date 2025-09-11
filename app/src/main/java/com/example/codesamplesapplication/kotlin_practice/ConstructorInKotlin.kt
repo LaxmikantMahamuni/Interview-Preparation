@@ -1,6 +1,7 @@
 package com.example.codesamplesapplication.kotlin_practice
 
 class ConstructorInKotlin(myInt: Int){
+
     init {
         println("In First Init block:")
         println(myInt)
@@ -16,6 +17,7 @@ class ConstructorInKotlin(myInt: Int){
 
     constructor(myNextInt: Int, myString: String): this(myNextInt) {
         println("In Secondary constructor:")
+        printValues()
         this.myString = myString
         printValues()
     }
@@ -32,8 +34,8 @@ class ConstructorInKotlin(myInt: Int){
 }
 
 fun main() {
-    println("Calling primary constructor")
-    ConstructorInKotlin(10)
+//    println("Calling primary constructor")
+//    ConstructorInKotlin(10)
 
 
     println("Calling secondary constructor")

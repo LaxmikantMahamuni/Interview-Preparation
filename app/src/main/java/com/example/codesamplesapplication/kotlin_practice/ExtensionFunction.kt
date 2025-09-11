@@ -1,7 +1,7 @@
-package com.example.codesamplesapplication.small_practice
+package com.example.codesamplesapplication.kotlin_practice
 
 fun main() {
-    val myString = "Hello there World Laxmikant!"
+    val myString = "Hello World Laxmikant!"
     println(myString.reverse())
 }
 

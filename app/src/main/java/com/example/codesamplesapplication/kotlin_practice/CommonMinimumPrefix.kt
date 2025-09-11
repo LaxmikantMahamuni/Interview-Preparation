@@ -1,4 +1,4 @@
-package com.example.codesamplesapplication.small_practice
+package com.example.codesamplesapplication.kotlin_practice
 
 fun commonMinimumPrefix(strings: List<String>): String {
     var prefix = strings[0]
