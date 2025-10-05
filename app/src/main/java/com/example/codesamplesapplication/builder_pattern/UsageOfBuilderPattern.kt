@@ -18,9 +18,9 @@ fun main() {
 
     println("Lax Machine = $myComputerMachine")
 
-    val sangitaComputerMachine = ComputerBuilder()
+    val sangitaComputerMachine = ComputerBuilder2()
+        .installWIFICard(true)
         .installBluetooth(true)
-        .installWifiCard(true)
         .build()
 
     println("Sangita's Machine = $sangitaComputerMachine")

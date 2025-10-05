@@ -115,3 +115,46 @@ suspend fun getUser
 6. What is JVMStatic?
 7. How WorkManager gives guarantee for executing tasks even after device restarts?
 8. How coroutine handles the Exceptions?
+
+** Opus (Round1) -**
+1. Fibonacci series with recursion
+2. Work Manager program
+3. Jetpack compose login screen
+4. Kotlin programming
+5. Lazy initialisation
+6. Bluetooth
+7. Experience with developing - Android SDK(Library)
+8. MVP vs MVVM
+9. What are coroutines
+10. What are the jetpack compose components you used so far
+11. Which design patterns you used for developing Android SDK(Library)
+12. How would you handle parallelism using coroutines
+
+**Opus - Mastercard (Round2)-**
+1. What is minimum time period can be set to a PeriodicWorkRequest in WorkManager 
+2. How to run multiple coroutines on a basic single Thread
+3. What is continuation parameter in Kotlin Coroutines
+4. How to share the data between 2 application installed on different devices
+5. Launch mode on activity - scenario for SingleTask Launch Mode
+6. Why use Kotlin Sealed Class over Enum
+7. How can we connect to BLE device silently
+8. Permissions required For Bluetooth 
+9. What are the things to care about while developing an Android SDK(Library)
+10. How to publish an Android SDK(Library)
+11. How ViewModel is Activity Life-Cycle Aware
+12. What problems were there earlier those have been solved by Dependency-Injection
+13. How to mock a private class for testing
+14. How to unit test the api calls in Android-Kotlin 
+
+
+
+
+
+
+
+
+
+
+
+
+
