@@ -21,4 +21,14 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.codesamplesapplication", appContext.packageName)
     }
+
+    fun additionOfNumbers(a: Int, b: Int): Int {
+        return a + b
+    }
+
+    fun checkThatGivenStringIsPanagram(s: String): Boolean {
+        val alphabet = ('a'..'z').toSet()
+        val inputSet = s.toLowerCase().filter { it in 'a'..'z' }.toSet()
+        return inputSet.containsAll(alphabet)
+    }
 }

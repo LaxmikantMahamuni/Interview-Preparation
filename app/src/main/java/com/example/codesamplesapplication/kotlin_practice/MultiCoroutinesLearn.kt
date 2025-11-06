@@ -99,19 +99,19 @@ import kotlin.system.measureTimeMillis
 //    Thread.sleep(2000)
 //}
 
-//fun main() = runBlocking {
-//    val scope = CoroutineScope(Dispatchers.Default)
-//
-//    val job1 = scope.launch {
-//        delay(1000)
-//        println("Coroutine 1 finished on: ${Thread.currentThread().name}")
-//    }
+fun main() = runBlocking {
+    val scope = CoroutineScope(Dispatchers.Default)
+
+    val job1 = scope.launch {
+        delay(1000)
+        println("Coroutine 1 finished on: ${Thread.currentThread().name}")
+    }
 //    job1.join() // Wait for coroutine 1
-//
-//    val job2 = scope.launch {
-//        delay(1000)
-//        println("Coroutine 2 finished on: ${Thread.currentThread().name}")
-//    }
+
+    val job2 = scope.launch {
+        delay(1000)
+        println("Coroutine 2 finished on: ${Thread.currentThread().name}")
+    }
 //    job2.join() // Wait for coroutine 2
 //
 //    val job3 = scope.launch {
@@ -125,9 +125,9 @@ import kotlin.system.measureTimeMillis
 //        println("Coroutine 4 finished on: ${Thread.currentThread().name}")
 //    }
 //    job4.join() // Wait for coroutine 4
-//
-//    println("All coroutines finished sequentially.")
-//}
+
+    println("All coroutines finished sequentially.")
+}
 
 //fun main() {
 //    val scope = CoroutineScope(Dispatchers.Default)
@@ -230,30 +230,30 @@ import kotlin.system.measureTimeMillis
 //    println("End")
 //}
 
-fun main() = runBlocking {
-    println("First statement of Async")
-
-    launch {
-        val one = async { sampleOne()}
-        val two = async { sampleTwo()}
-        if(one.await() && two.await()){
-            println("Both returned true")
-        }else {
-            println("Someone returned false")
-        }
-    }
-    delay(3500)
-    println("Last statement of Async")
-}
-
-private suspend fun sampleOne(): Boolean {
-    delay(1000L)
-    return true
-}
-private suspend fun sampleTwo(): Boolean {
-    delay(3000L)
-    return false
-}
+//fun main() = runBlocking {
+//    println("First statement of Async")
+//
+//    launch {
+//        val one = async { sampleOne()}
+//        val two = async { sampleTwo()}
+//        if(one.await() && two.await()){
+//            println("Both returned true")
+//        }else {
+//            println("Someone returned false")
+//        }
+//    }
+//    delay(3500)
+//    println("Last statement of Async")
+//}
+//
+//private suspend fun sampleOne(): Boolean {
+//    delay(1000L)
+//    return true
+//}
+//private suspend fun sampleTwo(): Boolean {
+//    delay(3000L)
+//    return false
+//}
 
 
 
